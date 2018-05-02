@@ -23,6 +23,7 @@ touched most files here.
 #### Build with python3
 * `docker build -t webapp .`
 * `docker run -d -p 80:80 webapp`
+* `docker run -dit -p 80:80 webapp /bin/bash`
 * go to 127.0.0.1 to see if works
 
 #### Build with python2
