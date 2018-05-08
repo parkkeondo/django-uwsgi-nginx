@@ -32,8 +32,8 @@ touched most files here.
 ##### Add Volumn 
 * `docker run -d -p 80:80 -v /home/xxx/app:/home/docker/code/app webapp`
 
-##### Bash Execute
-* `docker run -dit -p 80:80 webapp /bin/bash`
+##### Bash Execute ( /bin/bash or bin/zsh )
+* `docker run -dit -p 80:80 webapp /bin/zsh`
 
 * `docker exec -it xxxxx /bin/bash`
 
