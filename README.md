@@ -23,6 +23,10 @@ touched most files here.
 #### Build with python3
 * `docker build -t jmrose/nginx-python . -f Dockerfile.base`
 * `docker push jmrose/nginx-python`
+* `django-admin startproject website /home/jmrose/webapp/app`
+* `vim website/setting.py`
+
+* `docker build -t webapp .`
 * `docker build -t webapp .`
 * `docker run -d -p 80:80 webapp`
 
