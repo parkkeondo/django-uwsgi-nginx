@@ -21,9 +21,15 @@ touched most files here.
 
 ### Build and run
 #### Build with python3
+* `docker build -t jmrose/nginx-python . -f Dockerfile.base`
+* `docker push jmrose/nginx-python`
 * `docker build -t webapp .`
 * `docker run -d -p 80:80 webapp`
+
+##### Add Volumn 
 * `docker run -d -p 80:80 -v /home/xxx/app:/home/docker/code/app webapp`
+
+##### Bash Execute
 * `docker run -dit -p 80:80 webapp /bin/bash`
 
 * `docker exec -it xxxxx /bin/bash`
