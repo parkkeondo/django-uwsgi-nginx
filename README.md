@@ -26,8 +26,7 @@ touched most files here.
 * `django-admin startproject website /home/jmrose/webapp/app`
 * `vim website/setting.py`
 
-* `docker build -t webapp .`
-* `docker build -t webapp .`
+* `docker build . -t webapp`
 * `docker run -d -p 80:80 webapp`
 
 ##### Add Volumn 
