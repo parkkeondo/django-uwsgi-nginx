@@ -26,11 +26,11 @@ touched most files here.
 * `django-admin startproject website /home/jmrose/webapp/app`
 * `vim website/setting.py`
 
-* `docker build . -t webapp`
+* `docker build . -t park-image`
 * `docker run -d -p 80:80 webapp`
 
 ##### Add Volumn 
-* `docker run -d -p 80:80 -v /home/xxx/app:/home/docker/code/app webapp`
+* `docker run -d -p 80:8081 -v /home/park/app:/home/docker/code/app park-image`
 
 ##### Bash Execute ( /bin/bash or bin/zsh )
 * `docker run -dit -p 80:80 webapp /bin/zsh`
