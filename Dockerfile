@@ -26,5 +26,5 @@ COPY supervisor-app.conf /etc/supervisor/conf.d/
 # uWSGI Log
 RUN mkdir -p /var/log/uwsgi/app
 
-EXPOSE 80
+EXPOSE 8081
 CMD ["supervisord", "-n"]
